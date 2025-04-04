@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+*,*:focus,:active{outline: none;}
+ul, li, ol{
+    list-style: none;
+}
+a, a:hover{
+    text-decoration: none;
+}
+body{
+    font-family: 'Open Sans';
+}
+header{
+    background-color: #101524;
+}
+.container{
+    max-width: 1150px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    height: 88px;
+    padding: 18px 0;
+    .header__logo{
+        a{
+            height: 100%;
+            img{
+                height: 100%;
+            }
+        }
+    }
+}
+nav{
+    display: flex;
+    align-items: center;
+    ul{
+        display: flex;
+        font-size: 14px;
+        font-weight: 400;
+        gap: 32px;
+        a{
+            color: #cecdcd;
+        }
+    }
+}
+.hero{
+    width: 100%;
+    height: 100vh;
+    background-image: url('../images/imgs/thompsom.jpg');
+    background-position: 100% 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
