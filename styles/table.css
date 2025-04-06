@@ -1,6 +1,7 @@
 .class__list{
     display: flex;
     gap: 10px;
+    flex-wrap: wrap;
     li{
         a{
             border-radius: 4px;

@@ -12,7 +12,7 @@
 <body>
     <header>
         <div class="container">
-            <div class="header">
+            <div class="header" id="header">
                 <div class="header__logo">
                     <a href="../index.html">
                         <img src="../images/icons/logo.png" alt="logo">
@@ -32,6 +32,9 @@
                     </ul>
                 </nav>
             </div>
+            <div class="array__up">
+                <a href="#header"></a>
+            </div>
         </div>
     </header>
     <div class="hero">
@@ -41,13 +44,13 @@
         <div class="container">
             <div class="timetable">
                 <ul class="class__list">
-                    <li><a href="">1-A</a></li>
-                    <li><a href="">1-Б</a></li>
-                    <li><a href="">1-В</a></li>
-                    <li><a href="">1-Г</a></li>
+                    <li><a href="#1a">1-A</a></li>
+                    <li><a href="#1b">1-Б</a></li>
+                    <li><a href="#1v">1-В</a></li>
+                    <li><a href="#1g">1-Г</a></li>
                 </ul>
-                <div class="class__1a">
-                    <h2>1-Б Класс</h2>
+                <div class="class__1a hide" id="1a">
+                    <h2>1-А Класс</h2>
                     <div class="timetable__list">
                         <div class="timetable__card">
                             <p>Понедельник</p>
@@ -421,7 +424,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="class__1b">
+                <div class="class__1b" id="1b">
                     <h2>1-Б Класс</h2>
                     <div class="timetable__list">
                         <div class="timetable__card">
@@ -796,7 +799,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="class__1v">
+                <div class="class__1v" id="1v">
                     <h2>1-В класс</h2>
                     <div class="timetable__list">
                         <div class="timetable__card">
@@ -1171,7 +1174,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="class__1g">
+                <div class="class__1g" id="1g">
                     <h2>1-Г Класс</h2>
                     <div class="timetable__list">
                         <div class="timetable__card">
